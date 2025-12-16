@@ -1,0 +1,25 @@
+{% extends "base.html" %}  <!-- If you have a base template -->
+
+{% block content %}
+<h1>Alumni Prediction</h1>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    {{ form.salary.label }} {{ form.salary() }}<br>
+    {{ form.fee.label }} {{ form.fee() }}<br>
+    {{ form.Year_Graduated.label }} {{ form.Year_Graduated() }}<br>
+    <!-- Add more fields here -->
+
+    {{ form.submit() }}
+</form>
+
+{% if prediction %}
+    <h2>Prediction: {{ prediction }}</h2>
+{% endif %}
+{% endblock %}
+
+
+<!-- 
+
+ form.Night.data,
+ form.day_calls.data
+ form.intial_charges_charges.data, -->
