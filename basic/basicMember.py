@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import os
 
 from flask import Flask
@@ -68,3 +69,8 @@ with app.app_context():             # Creates a temporary Flask application cont
 
 #     def __repr__(self):
 #         return f"<Member {self.name}>"
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:61415e71a38a772fc4cdb44cd488d29175df2c444f1bb87b1a9e707262b041a4
+size 2514
+>>>>>>> 96f5544 (added baisc file)

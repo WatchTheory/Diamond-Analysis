@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [project]
 name = "basic"
 version = "0.1.0"
@@ -11,3 +12,8 @@ dependencies = [
     "pandas>=2.3.3",
     "scikit-learn>=1.7.2",
 ]
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a4382ec732876cfe9051971bb6a49ae4ac3770e8a81c6b90175538d5370b739
+size 275
+>>>>>>> 96f5544 (added baisc file)

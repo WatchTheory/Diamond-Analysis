@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from flask import Flask, render_template
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, FloatField, IntegerField
@@ -148,3 +149,8 @@ if __name__ == "__main__":
 
 
 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:c88734de889f57a95ad96acdec96ec104ad811e829dafe83eff29f4dd1d7eff8
+size 4285
+>>>>>>> 96f5544 (added baisc file)
