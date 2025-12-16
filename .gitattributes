@@ -1,12 +1,2 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
-
-*.md filter=lfs diff=lfs merge=lfs -text
-*.dockerignore filter=lfs diff=lfs merge=lfs -text
-*.python-version filter=lfs diff=lfs merge=lfs -text
-*.py filter=lfs diff=lfs merge=lfs -text
-/basic/dockerfile filter=lfs diff=lfs merge=lfs -text
-*.toml filter=lfs diff=lfs merge=lfs -text
-*.html filter=lfs diff=lfs merge=lfs -text
-*.lock filter=lfs diff=lfs merge=lfs -text
-*.csv filter=lfs diff=lfs merge=lfs -text
 #40ff2e8 (Tracking large diamond dataset file with Git LFS)
